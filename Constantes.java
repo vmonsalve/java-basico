@@ -6,8 +6,7 @@ public class Constantes {
 	public static void main(String[] args) {
 		
 		/*
-		 * Primer ejercicio instanciacion y asignacion
-		 * de variables y operadores. 
+		 *  Constante y Operadores I
 		 * 
 		 * double a = 5;
 		 * double b;
@@ -49,8 +48,50 @@ public class Constantes {
 		 * de 6.
 		 *
 		 */
-		int c = 5;
-		System.out.println(c);
+		
+		/*
+		 * Constante y operadores II
+		 * 
+		 * Si tenemos una variable instanciada y declarada
+		 * de la siguiente forma:
+		 * 
+		 * int c = 5;
+		 * 
+		 * Para transformarla en una constante debemos agregar
+		 * la palabra reservada final antes de la misma quedando:
+		 * 
+		 * final int c = 5;
+		 * 
+		 * De esta manera nuestra variable se transforma en una 
+		 * constante y no puede ser modificada durante la ejecu-
+		 * ción del programa.
+		 * 
+		 * Si intentamos asignarle un valor a c cuando queramos
+		 * ejecutar el programa nos generara un mensaje de error,
+		 * como el siguiente:
+		 * 
+		 * "The final local variable c cannot be assigned. 
+		 * It must be blank and not using a compound assignment"
+		 * 
+		 * indicando que la variable local c no se le puede asignar
+		 * un valor.
+		 * 
+		 * 
+		 * */
+		
+		/*
+		 * Ejercicio:
+		 * 
+		 * Convierte centimetros a pulgadas.
+		 */
+		
+		final double apulgadas = 2.54; //Una pulgada equivale a 2.54 cm
+		double cm = 6;
+		double resultado = cm/apulgadas;
+		System.out.println("En "+cm+" cm hay "+resultado+" pulgadas");
+		
+		int operadoruno = 8, operadordos = 7, resultadotest = operadoruno + operadordos;
+		System.out.println("El resultado de "+operadoruno+" + "+operadordos+" es igual a "+resultadotest);
 		
 	}
 
