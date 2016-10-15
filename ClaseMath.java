@@ -39,7 +39,7 @@ public class ClaseMath {
 		System.out.println("El numero redondeado de "+numero_a_redondear+" es: "+numero_redondeado);
 		
 		/*
-		 * El siguiente metodo a ver de la funcion math es pow
+		 * El siguiente metodo a ver de la clase math es pow
 		 * nos servira para calcular la potencia de un numero.
 		 * 
 		 * */
